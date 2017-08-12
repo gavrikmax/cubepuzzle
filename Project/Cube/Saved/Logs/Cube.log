@@ -1,0 +1,1036 @@
+﻿Log file open, 08/12/17 16:54:27
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Cube
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2030808541) SRandInit(2030808541).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.243641
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.12-13.54.28:947][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-13.54.28:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.12-13.54.28:995][  0]LogInit: Computer: USER-PC
+[2017.08.12-13.54.28:995][  0]LogInit: User: Admin
+[2017.08.12-13.54.28:995][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.12-13.54.28:995][  0]LogInit: High frequency timer resolution =4.101708 MHz
+[2017.08.12-13.54.28:995][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.08.12-13.54.28:995][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.12-13.54.28:995][  0]LogMemory: Process Physical Memory: 278.11 MB used, 278.11 MB peak
+[2017.08.12-13.54.28:995][  0]LogMemory: Process Virtual Memory: 275.82 MB used, 275.82 MB peak
+[2017.08.12-13.54.28:995][  0]LogMemory: Physical Memory: 6883.33 MB used,  1258.20 MB free, 8141.53 MB total
+[2017.08.12-13.54.28:995][  0]LogMemory: Virtual Memory: 648.65 MB used,  1258.20 MB free, 8388608.00 MB total
+[2017.08.12-13.54.29:485][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.12-13.54.29:485][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.08.12-13.54.29:747][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.12-13.54.29:748][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.08.12-13.54.32:860][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.12-13.54.32:885][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.08.12-13.54.32:885][  0]LogD3D11RHI:       4051/0/3814 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.08.12-13.54.32:885][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.12-13.54.32:893][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.12-13.54.32:894][  0]LogD3D11RHI:     GPU DeviceId: 0x6810 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.12-13.54.32:894][  0]LogWindows: EnumDisplayDevices:
+[2017.08.12-13.54.32:894][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.08.12-13.54.32:894][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.08.12-13.54.32:894][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.08.12-13.54.32:895][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.08.12-13.54.32:895][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.08.12-13.54.32:895][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.08.12-13.54.32:895][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
+[2017.08.12-13.54.32:896][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.08.12-13.54.32:896][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.08.12-13.54.32:896][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.08.12-13.54.32:896][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.08.12-13.54.32:896][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.1 (internal:22.19.156.1, unified:22.19.156.1)
+[2017.08.12-13.54.32:896][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.08.12-13.54.32:896][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.12-13.54.32:989][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.12-13.54.33:003][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.08.12-13.54.33:003][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../work/Projects/cubepuzzle/Project/Cube/Intermediate/Shaders/WorkingDirectory/5828/).
+[2017.08.12-13.54.33:004][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/D5ED139A4ED65EEE155C49BC263CA814/'.
+[2017.08.12-13.54.33:004][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.12-13.54.36:509][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.12-13.54.36:646][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.12-13.54.36:762][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.12-13.54.36:915][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.12-13.54.37:046][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.12-13.54.37:165][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.12-13.54.37:274][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.12-13.54.37:422][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.12-13.54.37:503][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.12-13.54.37:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.12-13.54.37:750][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.12-13.54.37:855][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.12-13.54.37:956][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.12-13.54.38:064][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.12-13.54.38:160][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.12-13.54.38:344][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.12-13.54.38:344][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.12-13.54.38:433][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.12-13.54.38:626][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.12-13.54.38:684][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.12-13.54.38:784][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.12-13.54.38:871][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.12-13.54.38:958][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.12-13.54.39:069][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.12-13.54.39:069][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.12-13.54.40:056][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.12-13.54.40:782][  0]LogDerivedDataCache: Loaded boot cache 0.73s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.12-13.54.40:782][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.12-13.54.40:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../work/Projects/cubepuzzle/Project/Cube/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.12-13.54.40:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.12-13.54.40:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../work/Projects/cubepuzzle/Project/Cube/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.12-13.54.40:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.12-13.54.40:821][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.12-13.54.40:835][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.12-13.54.40:856][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.12-13.54.40:856][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.12-13.54.40:864][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-13.54.40:864][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-13.54.42:061][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.08.12-13.54.42:430][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-13.54.42:445][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.12-13.54.43:192][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.12-13.54.43:267][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.12-13.54.43:267][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.12-13.54.43:267][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.12-13.54.43:267][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.12-13.54.43:267][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.12-13.54.43:993][  0]LogNetVersion: Cube , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1907028213)
+[2017.08.12-13.54.44:320][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.021714 seconds
+[2017.08.12-13.54.44:329][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.12-13.54.44:329][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.12-13.54.44:329][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.12-13.54.44:445][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.12-13.55.10:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.12-13.55.10:730][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.12-13.55.11:848][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.12-13.55.12:530][  0]SourceControl: Source control is disabled
+[2017.08.12-13.55.12:530][  0]SourceControl: Source control is disabled
+[2017.08.12-13.55.12:630][  0]SourceControl: Source control is disabled
+[2017.08.12-13.55.12:709][  0]SourceControl: Source control is disabled
+[2017.08.12-13.55.13:851][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.12-13.55.14:272][  0]LogOcInput: OculusInput pre-init called
+[2017.08.12-13.55.14:721][  0]LogEngine: Initializing Engine...
+[2017.08.12-13.55.14:723][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.12-13.55.15:168][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.12-13.55.15:169][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.12-13.55.15:467][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.12-13.55.15:491][  0]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-13.55.15:510][  0]LogInit: FAudioDevice initialized.
+[2017.08.12-13.55.15:722][  0]LogDerivedDataCache: Saved boot cache 0.21s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.12-13.55.15:764][  0]LogInit: Texture streaming: Enabled
+[2017.08.12-13.55.15:977][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.12-13.55.16:675][  0]LogInit: Transaction tracking system initialized
+[2017.08.12-13.55.17:319][  0]BlueprintLog: New page: Editor Load
+[2017.08.12-13.55.19:322][  0]LocalizationService: Localization service is disabled
+[2017.08.12-13.55.20:718][  0]LogConsoleResponse: Display: 
+[2017.08.12-13.55.21:183][  0]LogFileCache: Scanning file cache for directory 'C:/work/Projects/cubepuzzle/Project/Cube/Content/' took 0.01s
+[2017.08.12-13.55.21:183][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.12-13.55.21:183][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.12-13.55.21:184][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.12-13.55.23:285][  0]SourceControl: Source control is disabled
+[2017.08.12-13.55.23:285][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.12-13.55.23:314][  0]LightingResults: New page: Lighting Build
+[2017.08.12-13.55.23:390][  0]MapCheck: New page: Map Check
+[2017.08.12-13.55.23:390][  0]LightingResults: New page: Lighting Build
+[2017.08.12-13.55.23:808][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.12-13.55.23:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.12-13.55.23:859][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.12-13.55.23:929][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.291ms to complete.
+[2017.08.12-13.55.23:929][  0]LogFileHelpers: Loading map 'Template_Default' took 0.644
+[2017.08.12-13.55.25:054][  0]LogCollectionManager: Loaded 0 collections in 0.001391 seconds
+[2017.08.12-13.55.25:307][  0]LogFileCache: Scanning file cache for directory 'C:/work/Projects/cubepuzzle/Project/Cube/Saved/Collections/' took 0.01s
+[2017.08.12-13.55.25:307][  0]LogFileCache: Scanning file cache for directory 'C:/work/Projects/cubepuzzle/Project/Cube/Content/Developers/Admin/Collections/' took 0.01s
+[2017.08.12-13.55.25:307][  0]LogFileCache: Scanning file cache for directory 'C:/work/Projects/cubepuzzle/Project/Cube/Content/Collections/' took 0.01s
+[2017.08.12-13.55.25:307][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.08.12-13.55.25:349][  0]LogContentBrowser: Native class hierarchy populated in 0.0404 seconds. Added 2386 classes and 500 folders.
+[2017.08.12-13.55.25:549][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.08.12-13.55.26:745][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.08.12-13.55.27:060][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.12-13.55.28:221][  0]LogSlate: Took 0.014387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.12-13.55.28:246][  0]LogSlate: Took 0.011429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.12-13.55.28:357][  0]LogSlate: Took 0.009165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.12-13.55.28:835][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2017.08.12-13.55.30:572][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.08.12-13.55.30:572][  0]LogLoad: (Engine Initialization) Total time: 66.00 seconds
+[2017.08.12-13.55.30:572][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.12-13.55.30:573][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.12-13.55.30:573][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.12-13.55.31:061][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.12-13.55.31:921][  3]LogAssetRegistry: Asset discovery search completed in 49.8798 seconds
+[2017.08.12-13.55.31:924][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.12-13.55.31:924][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2017.08.12-13.55.34:402][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.12-13.55.57:986][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.12-13.56.17:653][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.12-13.57.28:048][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.12-13.57.33:722][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.12-13.57.57:812][543]Cmd: DELETE
+[2017.08.12-13.57.57:812][543]Cmd: ACTOR DELETE
+[2017.08.12-13.57.57:986][543]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.12-13.57.58:044][543]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2017.08.12-13.57.58:821][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.12-13.57.59:107][622]Cmd: DELETE
+[2017.08.12-13.57.59:107][622]Cmd: ACTOR DELETE
+[2017.08.12-13.57.59:108][622]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.12-13.57.59:128][622]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.08.12-13.58.27:419][506]LogRenderer: Reallocating scene render targets to support 1616x1284 Format 10 NumSamples 1 (Frame:11659).
+[2017.08.12-13.58.42:743][286]LogSlate: Took 0.014752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.12-13.59.27:329][242]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.12-14.00.55:098][ 62]LogSlate: Took 0.008808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.12-14.01.52:467][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/main_level" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.12-14.01.52:641][736]LogSavePackage: Save=109.96ms
+[2017.08.12-14.01.52:641][736]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level4E67A14D43B61DD8AC1595B3A6500A42.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level.umap'
+[2017.08.12-14.01.52:660][736]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level.umap
+[2017.08.12-14.01.52:684][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/main_level_BuiltData" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level_BuiltData.uasset" SILENT=true
+[2017.08.12-14.01.52:728][736]LogSavePackage: Save=43.47ms
+[2017.08.12-14.01.52:728][736]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_BuiltDataC920A0C64F61A72F6550E7A56F9A644A.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level_BuiltData.uasset'
+[2017.08.12-14.01.52:729][736]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level_BuiltData.uasset
+[2017.08.12-14.01.52:744][736]LogFileHelpers: Saving map 'main_level' took 1.177
+[2017.08.12-14.02.07:482][475]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Cube
+[2017.08.12-14.02.07:482][475]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.12-14.02.07:482][475]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.08.12-14.02.07:482][475]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.12-14.02.07:487][475]LogTemp: BranchPath = USER-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = USER-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.08.12-14.02.07:812][487]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Admin\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.12-14.02.15:434][947]LogSlate: Took 0.014578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.12-14.02.24:414][519]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-14.03.11:948][427]LogSlate: Took 0.009917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.12-14.03.12:974][427]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 113 classes and 0 folders.
+[2017.08.12-14.03.37:863][841]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.main:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.SKEL_main_C:DefaultSceneRoot' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.SKEL_main_C:UserConstructionScript' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.SKEL_main_C' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.main_C:DefaultSceneRoot' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.main_C:UserConstructionScript' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.main_C' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.main:EventGraph.K2Node_Event_0' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.main:EventGraph.K2Node_Event_1' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:914][170]LogMetaData: Removing '/Game/Blueprints/main.main:EventGraph.K2Node_Event_2' ref from Metadata '/Game/main.PackageMetaData'
+[2017.08.12-14.05.32:977][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset" SILENT=true
+[2017.08.12-14.05.33:009][170]LogSavePackage: Save=30.67ms
+[2017.08.12-14.05.33:009][170]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main0AE96202424DA8CF9F3A918F66064D22.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset'
+[2017.08.12-14.05.33:010][170]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset
+[2017.08.12-14.05.38:883][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main_level_BuiltData" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main_level_BuiltData.uasset" SILENT=true
+[2017.08.12-14.05.38:898][550]LogSavePackage: Save=13.64ms
+[2017.08.12-14.05.38:898][550]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_BuiltDataC02D20204C6392AB38303A89A38E779D.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main_level_BuiltData.uasset'
+[2017.08.12-14.05.38:899][550]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main_level_BuiltData.uasset
+[2017.08.12-14.05.38:902][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/main_level_BuiltData" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level_BuiltData.uasset" SILENT=true
+[2017.08.12-14.05.38:905][550]LogSavePackage: Save=1.04ms
+[2017.08.12-14.05.38:906][550]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_BuiltDataCF992EDA4B4D75670D6E7CA846EFAE18.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level_BuiltData.uasset'
+[2017.08.12-14.05.38:907][550]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/main_level_BuiltData.uasset
+[2017.08.12-14.05.52:097][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.12-14.05.52:194][373]LogSavePackage: Save=58.76ms
+[2017.08.12-14.05.52:194][373]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level986CB72B422A7482123ECABB169A59E9.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap'
+[2017.08.12-14.05.52:196][373]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap
+[2017.08.12-14.05.52:212][373]LogFileHelpers: Saving map 'main_level' took 1.619
+[2017.08.12-14.06.10:269][494]LogEditorViewport: Clicking on Actor (LMB): main_C (main)
+[2017.08.12-14.07.10:930][544]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2017.08.12-14.07.16:125][862]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-14.07.59:542][652]BlueprintLog: New page: Compile bp_main_game_mode
+[2017.08.12-14.08.01:798][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_main_game_mode" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset" SILENT=true
+[2017.08.12-14.08.01:817][772]LogSavePackage: Save=18.42ms
+[2017.08.12-14.08.01:817][772]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/bp_main_game_mode911076FD4EF107CA4CD3C5A3A1EEA31B.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset'
+[2017.08.12-14.08.01:818][772]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset
+[2017.08.12-14.08.07:732][ 88]MapCheck: New page: Map Check
+[2017.08.12-14.08.07:785][ 88]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.12-14.08.07:785][ 88]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.12-14.08.08:656][ 88]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.12-14.08.08:757][ 88]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.08.12-14.08.08:767][ 88]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2017.08.12-14.08.11:403][ 88]TextureStreamingBuild: Display: Compiling optional shaders took 2.767 seconds.
+[2017.08.12-14.08.11:460][ 88]LogLevel: Display: Export Material TexCoord Scales took 0.057 seconds.
+[2017.08.12-14.08.11:467][ 88]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2017.08.12-14.08.11:550][ 88]LightingResults: New page: Lighting Build - Aug 12, 2017, 8:08:11 PM
+[2017.08.12-14.08.11:783][ 88]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.12-14.08.11:906][ 88]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.12-14.08.12:104][ 88]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.12-14.08.15:634][ 88]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.08.12-14.08.16:113][ 88]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8008
+
+Server stack trace: 
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   в System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   в System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   в System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   в System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   в NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.08.12-14.08.21:353][ 88]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.12-14.08.21:353][ 88]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5828
+[2017.08.12-14.08.28:704][ 88]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.12-14.08.28:705][ 88]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.12-14.08.28:705][ 88]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.12-14.08.28:705][ 88]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.12-14.08.28:705][ 88]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.12-14.08.28:705][ 88]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.12-14.08.29:562][ 88]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.12-14.08.29:562][ 88]MapCheck: New page: main_level - Aug 12, 2017, 8:08:29 PM
+[2017.08.12-14.08.29:617][ 88]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.12-14.08.33:064][ 88]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 3,501.843ms to complete.
+[2017.08.12-14.08.33:092][ 88]LogEditorBuildUtils: Build time 0:25
+[2017.08.12-14.08.33:145][ 88]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.08.12-14.08.33:198][ 88]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.08.12-14.08.33:329][ 89]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2017.08.12-14.08.33:337][ 89]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2017.08.12-14.08.33:390][ 90]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.08.12-14.08.33:412][ 90]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.08.12-14.08.44:045][361]Job is a success!
+[2017.08.12-14.08.44:279][362]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.08.12-14.08.44:279][362]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.08.12-14.08.44:279][362]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.12-14.08.44:279][362]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.12-14.08.44:280][362]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2017.08.12-14.08.44:280][362]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.08.12-14.08.44:580][362]Lightmass on USER-PC: 6.51 sec total, 5.49 sec importing, 18 ms setup, 190 ms photons, 623 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.45 sec total, 484 ms processing.
+[2017.08.12-14.08.44:657][362]LogStaticLightingSystem: Illumination: 33.1 sec (70 ms encoding lightmaps, 17 ms encoding shadowmaps)
+[2017.08.12-14.08.44:657][362]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.12-14.08.44:657][362]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.12-14.08.44:701][362]DumpUnbuiltLightIteractions
+[2017.08.12-14.08.44:701][362]Lights with unbuilt interactions: 0
+[2017.08.12-14.08.44:701][362]
+[2017.08.12-14.08.44:701][362]Primitives with unbuilt interactions: 0
+[2017.08.12-14.08.44:721][363]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.12-14.08.44:721][363]MapCheck: New page: main_level - Aug 12, 2017, 8:08:44 PM
+[2017.08.12-14.08.47:660][363]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,939.122ms to complete.
+[2017.08.12-14.08.53:093][689]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.08.53:217][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.08.53:267][689]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:08:53 PM)
+[2017.08.12-14.08.53:277][689]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.08.53:296][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018789s)
+[2017.08.12-14.08.53:297][689]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.08.53:297][689]LogPlayLevel: PIE: World Init took: (0.001447s)
+[2017.08.12-14.08.53:298][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.020670s)
+[2017.08.12-14.08.53:365][689]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.08.53:375][689]LogInit: FAudioDevice initialized.
+[2017.08.12-14.08.53:443][689]LogLinker: Warning: Can't find file '/Game/bp_main_game_mode'
+[2017.08.12-14.08.53:443][689]LogLinker: Warning: Can't find file '/Game/bp_main_game_mode'
+[2017.08.12-14.08.53:454][689]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/bp_main_game_mode.bp_main_game_mode_C'
+[2017.08.12-14.08.53:454][689]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.08.53:592][689]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.08.53
+[2017.08.12-14.08.53:634][689]LogWorld: Bringing up level for play took: 0.043461
+[2017.08.12-14.08.53:871][689]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.08.12-14.08.53:939][689]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 1.318
+[2017.08.12-14.09.01:894][195]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.09.01:909][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.09.01:910][195]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:09:01 PM)
+[2017.08.12-14.09.01:910][195]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.09.01:913][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003142s)
+[2017.08.12-14.09.01:915][195]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.09.01:915][195]LogPlayLevel: PIE: World Init took: (0.002014s)
+[2017.08.12-14.09.01:915][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.005506s)
+[2017.08.12-14.09.01:960][195]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.09.01:974][195]LogInit: FAudioDevice initialized.
+[2017.08.12-14.09.02:022][195]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.09.02:024][195]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.09.02
+[2017.08.12-14.09.02:025][195]LogWorld: Bringing up level for play took: 0.001458
+[2017.08.12-14.09.02:027][195]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level -0.595
+[2017.08.12-14.09.20:702][563]LogChildActorComponent: Error: Found cycle in child actor component '/Game/Levels/main_level.main_level:PersistentLevel.main_36.main'.  Not spawning Actor of class 'main_C' to break.
+[2017.08.12-14.09.34:782][514]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.09.34:795][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.09.34:796][514]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:09:34 PM)
+[2017.08.12-14.09.34:796][514]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.09.34:801][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005430s)
+[2017.08.12-14.09.34:802][514]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.09.34:802][514]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2017.08.12-14.09.34:802][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.006847s)
+[2017.08.12-14.09.34:851][514]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.09.34:862][514]LogInit: FAudioDevice initialized.
+[2017.08.12-14.09.34:904][514]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.09.34:906][514]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.09.34
+[2017.08.12-14.09.34:907][514]LogWorld: Bringing up level for play took: 0.002313
+[2017.08.12-14.09.34:908][514]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 0.286
+[2017.08.12-14.09.41:407][988]Cmd: TRANSACTION UNDO
+[2017.08.12-14.09.41:407][988]LogEditorTransaction: Undo Remove Components
+[2017.08.12-14.09.41:444][988]LogChildActorComponent: Error: Found cycle in child actor component '/Game/Levels/main_level.main_level:PersistentLevel.main_36.main'.  Not spawning Actor of class 'main_C' to break.
+[2017.08.12-14.09.41:742][999]Cmd: TRANSACTION UNDO
+[2017.08.12-14.09.41:742][999]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.08.12-14.09.42:450][ 43]Cmd: TRANSACTION UNDO
+[2017.08.12-14.09.42:451][ 43]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.08.12-14.09.43:198][ 91]Cmd: TRANSACTION UNDO
+[2017.08.12-14.09.43:198][ 91]LogEditorTransaction: Undo Add Component
+[2017.08.12-14.09.43:768][127]Cmd: TRANSACTION UNDO
+[2017.08.12-14.09.43:768][127]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.08.12-14.10.01:525][289]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-14.13.15:858][355]BlueprintLog: New page: Compile main
+[2017.08.12-14.13.21:879][578]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.13.21:895][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.13.21:895][578]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:13:21 PM)
+[2017.08.12-14.13.21:895][578]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.13.21:899][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003944s)
+[2017.08.12-14.13.21:900][578]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.13.21:900][578]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2017.08.12-14.13.21:900][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.005124s)
+[2017.08.12-14.13.22:010][578]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.13.22:025][578]LogInit: FAudioDevice initialized.
+[2017.08.12-14.13.22:065][578]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.13.22:067][578]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.13.22
+[2017.08.12-14.13.22:067][578]LogWorld: Bringing up level for play took: 0.001630
+[2017.08.12-14.13.22:069][578]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level -0.558
+[2017.08.12-14.13.45:054][686]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2017.08.12-14.13.50:696][974]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-14.14.24:133][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.12-14.14.24:265][524]LogSavePackage: Save=77.33ms
+[2017.08.12-14.14.24:265][524]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level31414EB84CA904D7B298369A506556F0.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap'
+[2017.08.12-14.14.24:267][524]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap
+[2017.08.12-14.14.24:287][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level_BuiltData" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset" SILENT=true
+[2017.08.12-14.14.24:303][524]LogSavePackage: Save=15.12ms
+[2017.08.12-14.14.24:303][524]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_BuiltData65A4732E48DD56A6EE92A78378D34960.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset'
+[2017.08.12-14.14.24:305][524]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset
+[2017.08.12-14.14.27:073][624]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2017.08.12-14.14.28:407][676]BlueprintLog: New page: Compile bp_main_game_mode
+[2017.08.12-14.14.32:662][829]LogSlate: Took 0.021674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.12-14.14.38:552][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_main_game_mode" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset" SILENT=true
+[2017.08.12-14.14.38:569][ 60]LogSavePackage: Save=15.05ms
+[2017.08.12-14.14.38:569][ 60]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/bp_main_game_mode393912E54F6C556D7D66408DFD6B93E1.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset'
+[2017.08.12-14.14.38:570][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset
+[2017.08.12-14.14.41:445][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_main_game_mode" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset" SILENT=true
+[2017.08.12-14.14.41:463][203]LogSavePackage: Save=16.43ms
+[2017.08.12-14.14.41:463][203]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/bp_main_game_mode36CF6287411637F7028800865815A849.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset'
+[2017.08.12-14.14.41:464][203]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset
+[2017.08.12-14.14.43:039][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.12-14.14.46:407][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset" SILENT=true
+[2017.08.12-14.14.46:428][404]LogSavePackage: Save=17.89ms
+[2017.08.12-14.14.46:428][404]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/mainC9B83B3B42605152040C0DB668E5ABF8.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset'
+[2017.08.12-14.14.46:430][404]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset
+[2017.08.12-14.14.49:012][520]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.14.49:030][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.14.49:030][520]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:14:49 PM)
+[2017.08.12-14.14.49:030][520]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.14.49:034][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003551s)
+[2017.08.12-14.14.49:035][520]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.14.49:035][520]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2017.08.12-14.14.49:035][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.005101s)
+[2017.08.12-14.14.49:151][520]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.14.49:163][520]LogInit: FAudioDevice initialized.
+[2017.08.12-14.14.49:203][520]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.14.49:205][520]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.14.49
+[2017.08.12-14.14.49:205][520]LogWorld: Bringing up level for play took: 0.001701
+[2017.08.12-14.14.49:207][520]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 0.578
+[2017.08.12-14.14.52:739][757]MapCheck: New page: Map Check
+[2017.08.12-14.14.52:786][757]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.12-14.14.52:786][757]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.12-14.14.52:849][757]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.12-14.14.52:862][757]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.08.12-14.14.52:870][757]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.08.12-14.14.52:880][757]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.08.12-14.14.53:925][757]TextureStreamingBuild: Display: Compiling optional shaders took 1.082 seconds.
+[2017.08.12-14.14.53:943][757]LogLevel: Display: Export Material TexCoord Scales took 0.018 seconds.
+[2017.08.12-14.14.53:953][757]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2017.08.12-14.14.53:990][757]LightingResults: New page: Lighting Build - Aug 12, 2017, 8:14:53 PM
+[2017.08.12-14.14.53:998][757]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.12-14.14.54:000][757]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.12-14.14.54:000][757]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.12-14.14.54:001][757]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.12-14.14.54:001][757]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5828
+[2017.08.12-14.14.59:123][757]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.12-14.14.59:123][757]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.12-14.14.59:123][757]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.12-14.14.59:123][757]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.12-14.14.59:123][757]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.12-14.14.59:123][757]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.12-14.14.59:596][757]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.12-14.14.59:596][757]MapCheck: New page: main_level - Aug 12, 2017, 8:14:59 PM
+[2017.08.12-14.14.59:801][757]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 205.643ms to complete.
+[2017.08.12-14.14.59:822][757]LogEditorBuildUtils: Build time 0:07
+[2017.08.12-14.15.02:012][806]Job is a success!
+[2017.08.12-14.15.02:161][807]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.08.12-14.15.02:161][807]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.08.12-14.15.02:161][807]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.08.12-14.15.02:161][807]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.08.12-14.15.02:161][807]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2017.08.12-14.15.02:161][807]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.08.12-14.15.02:208][807]Lightmass on USER-PC: 1.09 sec total, 236 ms importing, 10 ms setup, 286 ms photons, 492 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.86 sec total, 394 ms processing.
+[2017.08.12-14.15.02:217][807]LogStaticLightingSystem: Illumination: 8.20 sec (13 ms encoding lightmaps, 45 ms encoding shadowmaps)
+[2017.08.12-14.15.02:217][807]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.12-14.15.02:217][807]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.12-14.15.03:114][807]DumpUnbuiltLightIteractions
+[2017.08.12-14.15.03:114][807]Lights with unbuilt interactions: 0
+[2017.08.12-14.15.03:114][807]
+[2017.08.12-14.15.03:114][807]Primitives with unbuilt interactions: 0
+[2017.08.12-14.15.03:127][808]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.12-14.15.03:127][808]MapCheck: New page: main_level - Aug 12, 2017, 8:15:03 PM
+[2017.08.12-14.15.03:243][808]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.817ms to complete.
+[2017.08.12-14.15.06:795][965]Cmd: SELECT NONE
+[2017.08.12-14.15.14:976][438]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.15.14:990][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.15.14:991][438]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:15:14 PM)
+[2017.08.12-14.15.14:991][438]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.15.14:995][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003716s)
+[2017.08.12-14.15.14:996][438]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.15.14:996][438]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2017.08.12-14.15.14:996][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.005538s)
+[2017.08.12-14.15.15:070][438]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.15.15:079][438]LogInit: FAudioDevice initialized.
+[2017.08.12-14.15.15:119][438]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.15.15:121][438]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.15.15
+[2017.08.12-14.15.15:121][438]LogWorld: Bringing up level for play took: 0.001508
+[2017.08.12-14.15.15:124][438]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 0.495
+[2017.08.12-14.15.27:688][155]MapCheck: New page: Map Check
+[2017.08.12-14.15.27:729][155]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.12-14.15.27:730][155]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.12-14.15.27:787][155]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.12-14.15.27:797][155]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.08.12-14.15.27:808][155]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.08.12-14.15.27:820][155]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.08.12-14.15.28:988][155]TextureStreamingBuild: Display: Compiling optional shaders took 1.208 seconds.
+[2017.08.12-14.15.28:994][155]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.08.12-14.15.29:000][155]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2017.08.12-14.15.29:037][155]LightingResults: New page: Lighting Build - Aug 12, 2017, 8:15:29 PM
+[2017.08.12-14.15.29:049][155]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.12-14.15.29:051][155]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.12-14.15.29:051][155]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.12-14.15.29:053][155]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.12-14.15.29:054][155]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5828
+[2017.08.12-14.15.34:170][155]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.12-14.15.34:170][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.12-14.15.34:170][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.12-14.15.34:170][155]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.12-14.15.34:170][155]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.12-14.15.34:170][155]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.12-14.15.34:232][155]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.12-14.15.34:232][155]MapCheck: New page: main_level - Aug 12, 2017, 8:15:34 PM
+[2017.08.12-14.15.34:350][155]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.277ms to complete.
+[2017.08.12-14.15.34:375][155]LogEditorBuildUtils: Build time 0:06
+[2017.08.12-14.15.37:942][263]Job is a success!
+[2017.08.12-14.15.38:121][264]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.08.12-14.15.38:121][264]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.08.12-14.15.38:121][264]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.12-14.15.38:121][264]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.12-14.15.38:121][264]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2017.08.12-14.15.38:121][264]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.08.12-14.15.38:177][264]Lightmass on USER-PC: 1.30 sec total, 492 ms importing, 22 ms setup, 153 ms photons, 562 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.16 sec total, 537 ms processing.
+[2017.08.12-14.15.38:208][264]LogStaticLightingSystem: Illumination: 9.12 sec (15 ms encoding lightmaps, 67 ms encoding shadowmaps)
+[2017.08.12-14.15.38:208][264]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.12-14.15.38:208][264]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.12-14.15.39:171][264]DumpUnbuiltLightIteractions
+[2017.08.12-14.15.39:171][264]Lights with unbuilt interactions: 0
+[2017.08.12-14.15.39:171][264]
+[2017.08.12-14.15.39:172][264]Primitives with unbuilt interactions: 0
+[2017.08.12-14.15.39:185][265]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.12-14.15.39:185][265]MapCheck: New page: main_level - Aug 12, 2017, 8:15:39 PM
+[2017.08.12-14.15.39:284][265]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.528ms to complete.
+[2017.08.12-14.15.40:258][301]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.15.40:270][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.15.40:270][301]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:15:40 PM)
+[2017.08.12-14.15.40:270][301]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.15.40:275][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004809s)
+[2017.08.12-14.15.40:276][301]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.15.40:276][301]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2017.08.12-14.15.40:276][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.006185s)
+[2017.08.12-14.15.40:363][301]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.15.40:374][301]LogInit: FAudioDevice initialized.
+[2017.08.12-14.15.40:410][301]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.15.40:412][301]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.15.40
+[2017.08.12-14.15.40:412][301]LogWorld: Bringing up level for play took: 0.001130
+[2017.08.12-14.15.40:429][301]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level -0.201
+[2017.08.12-14.16.23:560][776]LogActorFactory: Actor Factory created Cube
+[2017.08.12-14.16.23:655][776]LogActorFactory: Actor Factory created Cube
+[2017.08.12-14.16.29:751][111]Cmd: TRANSACTION UNDO
+[2017.08.12-14.16.29:751][111]LogEditorTransaction: Undo Create Actors
+[2017.08.12-14.16.32:913][256]LogActorFactory: Actor Factory created Cube
+[2017.08.12-14.16.42:888][778]LogActorFactory: Actor Factory created Cube
+[2017.08.12-14.17.30:432][252]LogRenderer: Reallocating scene render targets to support 1696x1284 Format 10 NumSamples 1 (Frame:1).
+[2017.08.12-14.17.54:287][261]LogEditorTransaction: Undo Modify Component(s)
+[2017.08.12-14.17.55:187][326]LogEditorTransaction: Undo Modify Component(s)
+[2017.08.12-14.20.48:034][ 74]Cmd: TRANSACTION UNDO
+[2017.08.12-14.20.48:034][ 74]LogEditorTransaction: Undo Delete current selection
+[2017.08.12-14.21.50:002][930]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0021 seconds. Added 1 classes and 0 folders.
+[2017.08.12-14.21.50:035][930]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.21.50:384][930]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.21.53:487][ 48]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.08.12-14.21.53:487][ 48]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.21.53:487][ 48]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.22.05:467][198]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.22.05:485][198]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.22.08:630][376]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.08.12-14.22.08:630][376]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.22.08:630][376]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.22.33:630][838]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.22.33:670][838]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.22.36:807][ 23]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.22.36:807][ 23]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.22.36:807][ 23]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.23.16:202][872]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.23.16:241][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.23.17:460][970]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.23.17:510][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.23.19:386][ 71]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.23.19:412][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.23.20:999][176]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.23.21:028][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.23.23:913][343]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.23.23:913][343]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.23.23:913][343]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.23.27:679][693]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.23.27:702][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.23.30:526][866]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.23.30:526][866]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.23.30:526][866]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.24.49:120][134]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.24.49:143][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.12-14.24.52:493][301]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.24.52:493][301]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.24.52:493][301]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.25.37:140][200]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.40:249][403]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.25.40:249][403]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.25.40:249][403]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.25.41:611][531]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.43:714][662]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.25.43:714][662]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.25.43:714][662]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.25.43:961][685]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.43:986][685]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.08.12-14.25.45:807][800]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.45:831][800]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.08.12-14.25.49:156][987]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.25.49:156][987]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.25.49:156][987]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.25.49:992][ 59]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.50:902][ 93]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.51:861][140]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.54:388][286]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.25.54:388][286]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.25.54:388][286]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.25.56:926][514]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.25.59:174][639]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.25.59:174][639]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.25.59:174][639]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.26.25:977][985]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.26.26:004][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.12-14.26.26:015][985]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.26.26:094][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.12-14.26.30:719][312]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.08.12-14.26.30:720][312]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.26.30:720][312]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.26.38:559][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.12-14.26.40:839][273]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.26.40:870][273]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.12-14.26.43:350][406]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.08.12-14.26.43:350][406]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.26.43:350][406]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.27.06:651][400]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.06:683][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.12-14.27.07:644][436]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.07:672][436]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.12-14.27.10:777][574]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.08.12-14.27.10:777][574]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.27.10:777][574]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.27.14:901][934]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.14:928][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.12-14.27.17:341][ 57]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.08.12-14.27.17:341][ 57]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.27.17:341][ 57]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.27.23:042][539]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.25:705][678]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.27.25:705][678]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.27.25:705][678]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.27.25:853][687]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.28:491][846]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.27.28:491][846]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.27.28:491][846]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.27.35:625][485]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.35:652][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.27.36:855][541]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.36:911][541]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.27.39:643][666]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.27.39:643][666]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.27.39:643][666]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.27.57:269][478]LogMaterialEditor: Saving and Compiling material m_box_test
+[2017.08.12-14.27.58:575][478]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.58:685][478]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.58:736][478]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.27.58:823][478]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy m_box_test, compiling. 
+[2017.08.12-14.28.00:956][478]TextureStreamingBuild: Display: Compiling optional shaders took 2.142 seconds.
+[2017.08.12-14.28.04:291][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/m_box_test" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Materials/m_box_test.uasset" SILENT=true
+[2017.08.12-14.28.04:340][478]LogSavePackage: Save=47.28ms
+[2017.08.12-14.28.04:340][478]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/m_box_testF711CA044A1C2CE654DAAEA1094CA558.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Materials/m_box_test.uasset'
+[2017.08.12-14.28.04:341][478]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Materials/m_box_test.uasset
+[2017.08.12-14.28.04:366][478]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.28.04:366][478]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.28.04:366][478]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.12-14.28.37:171][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset" SILENT=true
+[2017.08.12-14.28.37:228][687]LogSavePackage: Save=54.30ms
+[2017.08.12-14.28.37:228][687]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/mainCF01EE9D49250BA88E43B6A7DCDA77AF.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset'
+[2017.08.12-14.28.37:230][687]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset
+[2017.08.12-14.28.56:823][517]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.28.58:471][565]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.28.58:605][565]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.28.58:657][565]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.29.03:464][778]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.29.03:464][778]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.29.03:464][778]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.29.07:662][127]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.29.07:688][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.29.08:637][179]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.29.08:676][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.12-14.29.12:731][514]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.29.12:731][514]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.29.12:731][514]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.29.13:365][567]LogMaterialEditor: Saving and Compiling material m_box_test_2
+[2017.08.12-14.29.14:639][567]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.29.14:980][567]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.29.15:030][567]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.29.15:110][567]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy m_box_test_2, compiling. 
+[2017.08.12-14.29.16:536][567]TextureStreamingBuild: Display: Compiling optional shaders took 1.435 seconds.
+[2017.08.12-14.29.19:936][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/m_box_test_2" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Materials/m_box_test_2.uasset" SILENT=true
+[2017.08.12-14.29.19:958][567]LogSavePackage: Save=13.40ms
+[2017.08.12-14.29.19:958][567]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/m_box_test_24DEC25E3478156D88E280AB71E33AB8A.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Materials/m_box_test_2.uasset'
+[2017.08.12-14.29.19:959][567]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Materials/m_box_test_2.uasset
+[2017.08.12-14.29.20:032][567]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.29.20:032][567]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.29.20:032][567]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.12-14.31.10:526][659]LogSavePackage: Save=49.70ms
+[2017.08.12-14.31.10:526][659]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_Auto120370DF94BADC858D9022AA75E5A74C5.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level_Auto1.umap'
+[2017.08.12-14.31.10:527][659]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level_Auto1.umap
+[2017.08.12-14.31.10:529][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/main_level' took 0.133
+[2017.08.12-14.31.10:529][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.133
+[2017.08.12-14.31.10:589][659]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/main_level_BuiltData] ([1] browsable assets)...
+[2017.08.12-14.31.10:589][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/main_level_BuiltData]
+[2017.08.12-14.31.10:592][659]Error: Cannot save asset '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset'. Attempt result was '/Temp/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1', but the path contains illegal characters '.''.
+[2017.08.12-14.31.10:592][659]Warning: Asset '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset' is not allowed to save (see log for reason)
+[2017.08.12-14.31.13:409][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.12-14.31.15:899][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.12-14.31.16:043][798]LogSavePackage: Save=45.47ms
+[2017.08.12-14.31.16:043][798]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level5B110E3C437485C6E5F1C3A095EC89CC.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap'
+[2017.08.12-14.31.16:045][798]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap
+[2017.08.12-14.31.16:066][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level_BuiltData" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset" SILENT=true
+[2017.08.12-14.31.16:090][798]LogSavePackage: Save=15.46ms
+[2017.08.12-14.31.16:090][798]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_BuiltDataE81B1BDF46A66C24DEE525BEBC9EF09E.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset'
+[2017.08.12-14.31.16:092][798]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset
+[2017.08.12-14.31.21:927][885]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.12-14.34.31:683][109]BlueprintLog: New page: Compile main
+[2017.08.12-14.34.55:607][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset" SILENT=true
+[2017.08.12-14.34.55:675][364]LogSavePackage: Save=65.24ms
+[2017.08.12-14.34.55:675][364]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/mainE038B0C8460F294CA9E7ADBF20499117.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset'
+[2017.08.12-14.34.55:677][364]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset
+[2017.08.12-14.34.59:157][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.12-14.34.59:240][582]LogSavePackage: Save=41.46ms
+[2017.08.12-14.34.59:241][582]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_levelFA60172C47D652C0E74870A43CEB1E7F.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap'
+[2017.08.12-14.34.59:242][582]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap
+[2017.08.12-14.34.59:264][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level_BuiltData" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset" SILENT=true
+[2017.08.12-14.34.59:287][582]LogSavePackage: Save=20.33ms
+[2017.08.12-14.34.59:287][582]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_BuiltData777E59DD4546ADCC6ADC788A226F538F.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset'
+[2017.08.12-14.34.59:288][582]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset
+[2017.08.12-14.35.00:193][633]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.35.00:209][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.35.00:209][633]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:35:00 PM)
+[2017.08.12-14.35.00:209][633]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.35.00:212][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002905s)
+[2017.08.12-14.35.00:213][633]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.35.00:213][633]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2017.08.12-14.35.00:214][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.004493s)
+[2017.08.12-14.35.00:294][633]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.35.00:304][633]LogInit: FAudioDevice initialized.
+[2017.08.12-14.35.00:352][633]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.35.00:354][633]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.35.00
+[2017.08.12-14.35.00:355][633]LogWorld: Bringing up level for play took: 0.002227
+[2017.08.12-14.35.00:357][633]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level -0.295
+[2017.08.12-14.37.08:855][960]BlueprintLog: New page: Compile pc_main_controller
+[2017.08.12-14.37.10:996][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/pc_main_controller" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/pc_main_controller.uasset" SILENT=true
+[2017.08.12-14.37.11:014][120]LogSavePackage: Save=16.11ms
+[2017.08.12-14.37.11:014][120]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/pc_main_controller12BB32184F1C64E167AE8EA028C4BA01.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/pc_main_controller.uasset'
+[2017.08.12-14.37.11:015][120]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/pc_main_controller.uasset
+[2017.08.12-14.37.45:391][ 47]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.12-14.37.50:649][414]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-14.38.01:343][554]BlueprintLog: New page: Compile bp_main_game_mode
+[2017.08.12-14.38.02:136][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_main_game_mode" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset" SILENT=true
+[2017.08.12-14.38.02:158][597]LogSavePackage: Save=16.84ms
+[2017.08.12-14.38.02:158][597]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/bp_main_game_modeFD4337154F41469C35F9AB947E067658.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset'
+[2017.08.12-14.38.02:159][597]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset
+[2017.08.12-14.38.16:522][735]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.38.16:542][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.38.16:542][735]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:38:16 PM)
+[2017.08.12-14.38.16:542][735]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.38.16:546][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004014s)
+[2017.08.12-14.38.16:548][735]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.38.16:548][735]LogPlayLevel: PIE: World Init took: (0.001529s)
+[2017.08.12-14.38.16:548][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.005837s)
+[2017.08.12-14.38.16:605][735]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.38.16:615][735]LogInit: FAudioDevice initialized.
+[2017.08.12-14.38.16:657][735]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-14.38.16:660][735]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.38.16
+[2017.08.12-14.38.16:660][735]LogWorld: Bringing up level for play took: 0.002170
+[2017.08.12-14.38.16:662][735]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 0.006
+[2017.08.12-14.38.34:978][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_main_game_mode" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset" SILENT=true
+[2017.08.12-14.38.34:997][142]LogSavePackage: Save=17.94ms
+[2017.08.12-14.38.34:998][142]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/bp_main_game_mode03A31EA0463DFD7A7DBEB8A9DC62399B.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset'
+[2017.08.12-14.38.34:998][142]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/bp_main_game_mode.uasset
+[2017.08.12-14.38.36:261][275]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-14.39.18:260][210]BlueprintLog: New page: Compile pc_main_controller
+[2017.08.12-14.39.19:097][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/pc_main_controller" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/pc_main_controller.uasset" SILENT=true
+[2017.08.12-14.39.19:158][242]LogSavePackage: Save=17.08ms
+[2017.08.12-14.39.19:158][242]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/pc_main_controller1A6DB3554347DB64D957B2B000F9FB41.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/pc_main_controller.uasset'
+[2017.08.12-14.39.19:159][242]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/pc_main_controller.uasset
+[2017.08.12-14.39.35:707][715]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Cube
+[2017.08.12-14.39.35:707][715]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.12-14.39.35:707][715]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.08.12-14.39.35:707][715]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.12-14.39.35:707][715]LogTemp: BranchPath = USER-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = USER-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.08.12-14.39.35:878][732]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Admin\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.12-14.39.41:356][173]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-14.39.54:973][386]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.39.54:995][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.39.54:995][386]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:39:54 PM)
+[2017.08.12-14.39.54:995][386]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.39.54:999][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003799s)
+[2017.08.12-14.39.55:000][386]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.39.55:000][386]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2017.08.12-14.39.55:001][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.005201s)
+[2017.08.12-14.39.55:077][386]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.39.55:086][386]LogInit: FAudioDevice initialized.
+[2017.08.12-14.39.55:126][386]LogLoad: Game class is 'bp_main_game_mode_C'
+[2017.08.12-14.39.55:130][386]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.39.55
+[2017.08.12-14.39.55:130][386]LogWorld: Bringing up level for play took: 0.002292
+[2017.08.12-14.39.55:132][386]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 0.474
+[2017.08.12-14.40.35:054][723]BlueprintLog: New page: Compile main
+[2017.08.12-14.40.36:247][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset" SILENT=true
+[2017.08.12-14.40.36:296][786]LogSavePackage: Save=45.22ms
+[2017.08.12-14.40.36:296][786]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main03ADD13C442B985D2C394A993680B9C6.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset'
+[2017.08.12-14.40.36:297][786]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset
+[2017.08.12-14.40.39:566][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.12-14.40.39:660][ 25]LogSavePackage: Save=56.19ms
+[2017.08.12-14.40.39:660][ 25]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level6A61DF0D4F640DC1DAC600AB91720F43.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap'
+[2017.08.12-14.40.39:662][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level.umap
+[2017.08.12-14.40.39:679][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main_level_BuiltData" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset" SILENT=true
+[2017.08.12-14.40.39:697][ 25]LogSavePackage: Save=14.92ms
+[2017.08.12-14.40.39:697][ 25]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_BuiltData4207BEBA40F174EAAFFA11AB2D81CDE9.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset'
+[2017.08.12-14.40.39:698][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Levels/main_level_BuiltData.uasset
+[2017.08.12-14.40.40:550][ 73]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.40.40:570][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.40.40:570][ 73]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:40:40 PM)
+[2017.08.12-14.40.40:570][ 73]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.40.40:573][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003263s)
+[2017.08.12-14.40.40:574][ 73]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.40.40:575][ 73]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2017.08.12-14.40.40:575][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.004687s)
+[2017.08.12-14.40.40:628][ 73]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.40.40:638][ 73]LogInit: FAudioDevice initialized.
+[2017.08.12-14.40.40:673][ 73]LogLoad: Game class is 'bp_main_game_mode_C'
+[2017.08.12-14.40.40:675][ 73]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.40.40
+[2017.08.12-14.40.40:676][ 73]LogWorld: Bringing up level for play took: 0.001901
+[2017.08.12-14.40.40:677][ 73]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 0.019
+[2017.08.12-14.43.20:493][821]LogEditorTransaction: Undo Move Node
+[2017.08.12-14.43.20:528][821]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.43.20:569][821]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.43.22:256][891]LogEditorTransaction: Undo Add Node
+[2017.08.12-14.43.22:276][891]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.43.22:309][891]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.43.25:493][ 39]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.43.25:493][ 39]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.43.25:493][ 39]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.43.27:422][157]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.43.27:422][157]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.43.27:422][157]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.45.50:719][957]LogEditorTransaction: Undo AddPin
+[2017.08.12-14.45.50:743][957]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.45.50:774][957]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.45.54:626][155]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.45.54:626][155]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.45.54:626][155]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.45.56:283][240]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.45.56:283][240]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.45.56:283][240]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.46.34:667][722]LogEditorTransaction: Undo Move Node
+[2017.08.12-14.46.34:687][722]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.46.34:713][722]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.46.35:788][773]LogEditorTransaction: Undo Add Node
+[2017.08.12-14.46.35:809][773]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.46.35:850][773]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.46.39:246][951]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.46.39:246][951]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.46.39:246][951]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.46.41:117][ 43]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.46.41:117][ 43]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.46.41:117][ 43]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.46.47:206][607]LogEditorTransaction: Undo Create Pin Link
+[2017.08.12-14.46.47:229][607]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.46.47:262][607]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.46.50:057][738]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.46.50:057][738]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.46.50:057][738]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.46.52:321][855]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.46.52:321][855]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.46.52:321][855]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.48.28:742][192]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.08.12-14.48.28:764][192]LogMaterial: Missing cached shader map for material m_box_test, compiling. 
+[2017.08.12-14.48.28:795][192]LogMaterial: Missing cached shader map for material m_box_test_2, compiling. 
+[2017.08.12-14.48.32:210][390]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.48.32:210][390]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.48.32:210][390]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.48.34:080][483]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.12-14.48.34:080][483]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.12-14.48.34:080][483]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.12-14.48.34:907][557]BlueprintLog: New page: Compile main
+[2017.08.12-14.49.46:769][614]BlueprintLog: New page: Compile main
+[2017.08.12-14.49.48:038][671]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.49.48:058][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.49.48:058][671]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:49:48 PM)
+[2017.08.12-14.49.48:058][671]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.49.48:063][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004434s)
+[2017.08.12-14.49.48:064][671]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.49.48:064][671]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2017.08.12-14.49.48:064][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.006153s)
+[2017.08.12-14.49.48:120][671]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.49.48:133][671]LogInit: FAudioDevice initialized.
+[2017.08.12-14.49.48:206][671]LogLoad: Game class is 'bp_main_game_mode_C'
+[2017.08.12-14.49.48:209][671]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.49.48
+[2017.08.12-14.49.48:210][671]LogWorld: Bringing up level for play took: 0.002913
+[2017.08.12-14.49.48:215][671]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level -0.454
+[2017.08.12-14.50.31:776][440]LogRenderer: Reallocating scene render targets to support 2560x1376 Format 10 NumSamples 1 (Frame:2771).
+[2017.08.12-14.51.48:100][469]BlueprintLog: New page: Compile main
+[2017.08.12-14.51.49:117][512]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.12-14.51.49:138][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-14.51.49:138][512]PIE: New page: PIE session: main_level (Aug 12, 2017, 8:51:49 PM)
+[2017.08.12-14.51.49:138][512]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main_level
+[2017.08.12-14.51.49:141][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003218s)
+[2017.08.12-14.51.49:142][512]LogAIModule: Creating AISystem for world main_level
+[2017.08.12-14.51.49:142][512]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2017.08.12-14.51.49:143][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main_level.main_level to /Game/Levels/UEDPIE_0_main_level.main_level (0.004744s)
+[2017.08.12-14.51.49:185][512]LogInit: XAudio2 using '1 - DELL U2515H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.12-14.51.49:203][512]LogInit: FAudioDevice initialized.
+[2017.08.12-14.51.49:258][512]LogLoad: Game class is 'bp_main_game_mode_C'
+[2017.08.12-14.51.49:260][512]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2017.08.12-17.51.49
+[2017.08.12-14.51.49:260][512]LogWorld: Bringing up level for play took: 0.001662
+[2017.08.12-14.51.49:264][512]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_main_level 0.592
+[2017.08.12-14.54.08:582][535]LogSavePackage: Save=44.54ms
+[2017.08.12-14.54.08:582][535]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_Auto1662E3B2C480487C77FE49FBBEC9021B3.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level_Auto1.umap'
+[2017.08.12-14.54.08:583][535]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level_Auto1.umap
+[2017.08.12-14.54.08:585][535]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/main_level' took 0.120
+[2017.08.12-14.54.08:585][535]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.120
+[2017.08.12-14.54.08:588][535]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/main] ([1] browsable assets)...
+[2017.08.12-14.54.08:613][535]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/main.main]
+[2017.08.12-14.54.08:614][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/main]
+[2017.08.12-14.54.08:614][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Blueprints/main_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.12-14.54.08:704][535]LogSavePackage: Save=87.00ms
+[2017.08.12-14.54.08:704][535]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_Auto1578A43174E2F1A7AD919DFB72D16CBB1.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Blueprints/main_Auto1.uasset'
+[2017.08.12-14.54.08:705][535]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Blueprints/main_Auto1.uasset
+[2017.08.12-14.54.08:705][535]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/main_level_BuiltData] ([1] browsable assets)...
+[2017.08.12-14.54.08:705][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/main_level_BuiltData]
+[2017.08.12-14.54.08:709][535]Error: Cannot save asset '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset'. Attempt result was '/Temp/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1', but the path contains illegal characters '.''.
+[2017.08.12-14.54.08:709][535]Warning: Asset '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset' is not allowed to save (see log for reason)
+[2017.08.12-14.54.53:001][669]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.12-14.57.51:068][353]BlueprintLog: New page: Compile main
+[2017.08.12-14.57.52:181][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/main" FILE="../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset" SILENT=true
+[2017.08.12-14.57.52:249][395]LogSavePackage: Save=63.41ms
+[2017.08.12-14.57.52:249][395]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/mainB257413E406766090ED02DB0C0C3F456.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset'
+[2017.08.12-14.57.52:263][395]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Content/Blueprints/main.uasset
+[2017.08.12-15.04.09:213][979]LogSavePackage: Save=49.86ms
+[2017.08.12-15.04.09:213][979]LogSavePackage: Moving '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/main_level_Auto1C7AE4A3D47013EDD72DD6EB503BAD05D.tmp' to '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level_Auto1.umap'
+[2017.08.12-15.04.09:215][979]LogSavePackage: Display: Finished SavePackage ../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level_Auto1.umap
+[2017.08.12-15.04.09:230][979]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/main_level' took 0.133
+[2017.08.12-15.04.09:230][979]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.133
+[2017.08.12-15.04.09:242][979]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/main_level_BuiltData] ([1] browsable assets)...
+[2017.08.12-15.04.09:242][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/main_level_BuiltData]
+[2017.08.12-15.04.09:247][979]Error: Cannot save asset '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset'. Attempt result was '/Temp/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1', but the path contains illegal characters '.''.
+[2017.08.12-15.04.09:247][979]Warning: Asset '../../../../../../work/Projects/cubepuzzle/Project/Cube/Saved/Autosaves/Game/Levels/main_level./Game/Levels/main_level_BuiltData_Auto1.uasset' is not allowed to save (see log for reason)
